@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h1>todoLit</h1>
+      <h1>TodoList</h1>
       <ul>
         {task.map((list, index) => (
           <li key={index}>{list}</li>
